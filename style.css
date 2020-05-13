@@ -1,0 +1,110 @@
+#page-wrapper .projLabel{
+   float:left;
+}
+#page-wrapper .proj{
+    float: right;
+ }
+  .onHover a, #more{
+    font-size: 66%;
+    line-height: 164%;
+    width: auto;
+    display: block;
+ }
+ #stNameOnClick{
+    font-size: 45%;
+    line-height: 164%;
+    width: auto;
+    display: block;
+ }
+ .map .attrRows p{
+    font-size: 60%;
+    line-height: 132%;
+ }
+ .map ul{
+     margin:0px;
+ }
+ .mainRow strong{
+    color: rgb(34, 7, 107);
+ }
+ #Location{
+    font-size: 59%;
+    line-height: 161%;
+ }
+.onHover {
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    max-width: 11%;
+    display: block;
+
+}
+#layer-select{
+    font-size: 13px;
+}
+.onClick {
+    position: absolute;
+    background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 2px;
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+    height: 20%;
+    top: 26%;
+    width: 18%;
+    margin-left: 1%;
+    overflow: auto;
+}
+
+.onClick p, .onHover p{
+    margin: 0px;
+}
+
+.hide {
+    display: none;
+}
+
+.show li{ list-style: none; }
+.show a { border: 0 !important; text-decoration: none; }
+.show a:hover { text-decoration: underline !important; }
+
+#stName {
+    float: left;
+}
+
+#stImage{
+    float: left;
+}
+
+.onHover img{
+    padding-right:2px;
+    width: 27%;
+    float:left;
+}
+
+#stImageOnClick{
+    padding-right:2px;
+    width: 47%;
+    float:left;
+}
+
+#pointermove p{
+    margin: 0px;
+    margin-left:5px;
+}
+
+p, a {
+    color: #000000;
+  }
+
+.mainRow{
+    height: 41%;
+}
