@@ -1,0 +1,27 @@
+Installationsschritte "Installation Node und npm auf Strato Manager Server Ubuntu 18.04
+
+
+24.09.2020
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade
+apt-get autoremove
+adduser treelines
+
+
+Start node-Installation
+apt-get install curl
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+exit
+command -v nvm
+nvm ls
+nvm install vXYZ
+Man kann mehrere node-Versionen installieren und für bestimmte Anwendung bestimmte Version definieren
+Nodemodule direkt in den Ordner installieren, in dem die web-Seite Struktur gespeichert ist.
+eventuel ol installieren
+cd /home/treelines/www 
+npm init
+npm start
+falls was nicht funktioniert npm build
+Um den Prozess in Hintergrund zu starten 
+npm start &
